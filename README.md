@@ -24,18 +24,18 @@
 
 #### 1, Storyboardで、アプリのデザイン
 > 1-1. main.storyboardを選択し、UI部品から下記を配置します。(ドラッグ&ドロップ)
-> ・TextView 人数入力
-> ・TextView 金額入力
-> ・UILabel 結果出力
-> ・UIButton 計算実行
+- TextView 人数入力
+- TextView 金額入力
+- UILabel 結果出力
+- UIButton 計算実行
 ![image](https://raw.githubusercontent.com/iosClassForBeginner/XcodeHowToImage/master/Assets/set_uilabel.gif)
 ![image](https://raw.githubusercontent.com/iosClassForBeginner/XcodeHowToImage/master/Assets/set_button.gif)
 
 > 1-2. Storyboardの下記UI部品を、ViewController.swiftに紐づけます（control押しながらドラッグ）
-> ・TextView 人数入力
-> ・TextView 金額入力
-> ・UILabel 結果出力
-> ・UIButton 計算実行 (actionで紐付ける)
+- TextView 人数入力
+- TextView 金額入力
+- UILabel 結果出力
+- UIButton 計算実行 (actionで紐付ける)
 ![image](https://raw.githubusercontent.com/iosClassForBeginner/XcodeHowToImage/master/Assets/tying_button_action.gif)
 ![image](https://raw.githubusercontent.com/iosClassForBeginner/XcodeHowToImage/master/Assets/tying_textfield.gif)
 ![image](https://raw.githubusercontent.com/iosClassForBeginner/XcodeHowToImage/master/Assets/tying_uilabel.gif)
