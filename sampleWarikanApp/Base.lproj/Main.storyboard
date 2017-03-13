@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sampleWarikanApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iop-Bb-3Lt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="53.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iop-Bb-3Lt" secondAttribute="height" multiplier="7:1" id="Pbc-jk-XPR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人数" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JZ-EN-F2E">
+                                <rect key="frame" x="0.0" y="123.5" width="375" height="53.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6JZ-EN-F2E" secondAttribute="height" multiplier="7:1" id="Ve4-R6-vYw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一人当たり" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5j6-Fl-aKt">
+                                <rect key="frame" x="0.0" y="463.5" width="375" height="53.5"/>
+                                <color key="backgroundColor" red="0.82954126596450806" green="0.95360714197158813" blue="0.95516330003738403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5j6-Fl-aKt" secondAttribute="height" multiplier="7:1" id="ZRj-WE-TYP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0円" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxR-Q7-i7K">
+                                <rect key="frame" x="0.0" y="517" width="375" height="53.5"/>
+                                <color key="backgroundColor" red="0.82954126596450806" green="0.95360714197158813" blue="0.95516330003738403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QxR-Q7-i7K" secondAttribute="height" multiplier="7:1" id="8jy-9H-Nlh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kU2-YT-iOk" userLabel="人数入力">
+                                <rect key="frame" x="0.0" y="177" width="375" height="53.5"/>
+                                <color key="backgroundColor" red="1" green="0.94896299818049568" blue="0.86337780324682645" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kU2-YT-iOk" secondAttribute="height" multiplier="7:1" id="r4T-eA-nbb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="総金額" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqm-2S-l0e">
+                                <rect key="frame" x="0.0" y="230.5" width="375" height="53.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yqm-2S-l0e" secondAttribute="height" multiplier="7:1" id="1ct-N6-sqt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qMp-8I-5GI" userLabel="総金額入力">
+                                <rect key="frame" x="0.0" y="284" width="375" height="53.5"/>
+                                <color key="backgroundColor" red="1" green="0.94896299819999996" blue="0.86337780320000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qMp-8I-5GI" secondAttribute="height" multiplier="7:1" id="a9I-HV-ZqL"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6o-ee-982">
+                                <rect key="frame" x="125" y="367.5" width="125" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C6o-ee-982" secondAttribute="height" multiplier="7:1" id="V02-kN-ObC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="計算"/>
+                                <connections>
+                                    <action selector="keisan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRT-2l-M2M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kU2-YT-iOk" firstAttribute="bottom" secondItem="Yqm-2S-l0e" secondAttribute="top" id="2L5-BL-7Nz"/>
+                            <constraint firstItem="qMp-8I-5GI" firstAttribute="top" secondItem="Yqm-2S-l0e" secondAttribute="bottom" id="2dF-px-c8K"/>
+                            <constraint firstItem="6JZ-EN-F2E" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="30F-IH-fqM"/>
+                            <constraint firstItem="5j6-Fl-aKt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4yR-JW-bML"/>
+                            <constraint firstItem="qMp-8I-5GI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="76L-wD-CiT"/>
+                            <constraint firstItem="QxR-Q7-i7K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8jZ-he-9Jv"/>
+                            <constraint firstItem="Yqm-2S-l0e" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="B2o-O4-32N"/>
+                            <constraint firstItem="kU2-YT-iOk" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="B5f-Rw-Ik9"/>
+                            <constraint firstItem="iop-Bb-3Lt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NAX-Vs-PSQ"/>
+                            <constraint firstItem="qMp-8I-5GI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QWe-Ur-EAi"/>
+                            <constraint firstItem="6JZ-EN-F2E" firstAttribute="top" secondItem="iop-Bb-3Lt" secondAttribute="bottom" constant="70" id="Qi8-3c-Scm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5j6-Fl-aKt" secondAttribute="bottom" constant="150" id="Xbj-mz-O6z"/>
+                            <constraint firstItem="kU2-YT-iOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cjQ-1e-ugC"/>
+                            <constraint firstItem="C6o-ee-982" firstAttribute="top" secondItem="qMp-8I-5GI" secondAttribute="bottom" constant="30" id="dhK-QF-Lc2"/>
+                            <constraint firstItem="kU2-YT-iOk" firstAttribute="top" secondItem="6JZ-EN-F2E" secondAttribute="bottom" id="duO-Lh-s5h"/>
+                            <constraint firstItem="C6o-ee-982" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fbi-hR-fox"/>
+                            <constraint firstItem="iop-Bb-3Lt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="hSp-p1-0X1"/>
+                            <constraint firstItem="Yqm-2S-l0e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iQa-qK-ASX"/>
+                            <constraint firstItem="5j6-Fl-aKt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iUh-pX-VuM"/>
+                            <constraint firstItem="6JZ-EN-F2E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="joe-Dn-8gL"/>
+                            <constraint firstItem="iop-Bb-3Lt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kYF-nj-RdR"/>
+                            <constraint firstItem="QxR-Q7-i7K" firstAttribute="top" secondItem="5j6-Fl-aKt" secondAttribute="bottom" id="mp1-kA-aKK"/>
+                            <constraint firstItem="QxR-Q7-i7K" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="oqa-1j-sfS"/>
+                            <constraint firstItem="C6o-ee-982" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1/3" id="p8R-xF-5iS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="kekka" destination="QxR-Q7-i7K" id="5k7-SX-XN4"/>
+                        <outlet property="kingaku" destination="qMp-8I-5GI" id="eD5-Z7-tbQ"/>
+                        <outlet property="ninzu" destination="kU2-YT-iOk" id="YpO-O7-JFD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="199"/>
+        </scene>
+    </scenes>
+</document>
