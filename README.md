@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func keisan(_ sender: Any) {
+    @IBAction func keisan(_ sender: UIButton) {
         // 入力値を取得
         let intNinzu = Int(ninzu.text!)!
         let intKingaku = Int(kingaku.text!)!
@@ -78,8 +78,7 @@ class ViewController: UIViewController {
         kekka.text = "\(intKekka)円"
         
         // キーボード閉じる
-        ninzu.endEditing(true)
-        kingaku.endEditing(true)
+        view.endEditing(true)
     }
 }
 
